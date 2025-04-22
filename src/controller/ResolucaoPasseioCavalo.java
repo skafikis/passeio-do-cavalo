@@ -2,7 +2,7 @@ package controller;
 
 import model.Posicao;
 import model.Tabuleiro;
-import view.PesquisaEstrategica;
+import service.PesquisaEstrategica;
 
 public class ResolucaoPasseioCavalo {
     private PesquisaEstrategica estrategia;

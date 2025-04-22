@@ -1,13 +1,14 @@
 import controller.ResolucaoPasseioCavalo;
 import model.Posicao;
 import model.Tabuleiro;
-import view.AEstrela;
-import view.BuscaProfundidade;
+import service.AEstrela;
+import service.BuscaProfundidade;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        int tabuleiroTamanho = 8;
+        int tabuleiroTamanho = 6;
         Posicao posicaoInicial = new Posicao(0, 0);
+
 
         // Executando com Busca em Largura (DFS):
         System.out.println("Executando com Busca em Profundidade (DFS):");
