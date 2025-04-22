@@ -6,7 +6,13 @@ import service.BuscaProfundidade;
 
 public class App {
     public static void main(String[] args) throws Exception {
+        // Definindo o tamanho do tabuleiro e a posição inicial do cavalo
+        // Tamanho do tabuleiro (6x6)
+        // Caso deseje alterar o tamanho do tabuleiro bastear alterar o valor da variável tabuleiroTamanho
         int tabuleiroTamanho = 6;
+
+        // Posição inicial do cavalo (0, 0)
+        // Caso deseje alterar a posição inicial do cavalo bastear alterar o valor da variável posicaoInicial
         Posicao posicaoInicial = new Posicao(0, 0);
 
 
